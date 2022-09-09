@@ -1,0 +1,42 @@
+*{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive, 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-style: italic;
+    margin: 1%;
+}
+
+body{
+    width: 40%;
+}
+
+.forms{
+    width: 100%;
+    border-radius: 5%;
+    background-color: #eee4e4;
+    border: 2px solid #d6d2d2;
+}
+
+.flex-container{
+    margin: 2%;
+    width: 100%;
+}
+.iNome{
+    width: 85%;
+    text-align: center;
+}
+.iData{
+    width: 50%;
+}
+
+.bSalvar{
+    margin: 3%;
+    width: 30%;
+    height: 30%;
+    background-color: #082b08;
+    color: #d6d2d2;
+    border: 3px solid #0a7c0f;
+}

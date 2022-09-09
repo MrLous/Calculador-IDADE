@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="scriptjava.js" defer></script>
+</head>
+<body>
+    <div class="forms">
+        <form class="flex-container" action="">
+            <span class="sNome" id="sNome">Nome:</span>
+            <input type="text" class="iNome" id="iNome" >
+        </form>
+        <form class="flex-container">
+            <span class="sData" id="sData">Data de Nascimento:</span>
+            <input class="iData" id="iData" placeholder="xx/xx/xxxx" type="date">
+        </form>
+        <button onclick="salvar()" class="bSalvar" id="bSalvar"> Salvar </button>
+    </div>
+    <p id="sIdade"></p>
+</body>
+</html>
